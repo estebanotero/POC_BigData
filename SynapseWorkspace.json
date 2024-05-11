@@ -1,0 +1,50 @@
+{
+    "properties": {
+        "settings": {
+            "azureADOnlyAuthentication": {
+                "value": false,
+                "state": "Consistent"
+            }
+        },
+        "defaultDataLakeStorage": {
+            "resourceId": "/subscriptions/646d0560-711a-46a7-805e-ecb6f243e289/resourceGroups/POC_BigData/providers/Microsoft.Storage/storageAccounts/pocbigdata1",
+            "createManagedPrivateEndpoint": false,
+            "accountUrl": "https://pocbigdata1.dfs.core.windows.net",
+            "filesystem": "pocbigdata"
+        },
+        "encryption": {
+            "doubleEncryptionEnabled": false
+        },
+        "provisioningState": "Succeeded",
+        "connectivityEndpoints": {
+            "web": "https://web.azuresynapse.net?workspace=%2fsubscriptions%2f646d0560-711a-46a7-805e-ecb6f243e289%2fresourceGroups%2fPOC_BigData%2fproviders%2fMicrosoft.Synapse%2fworkspaces%2fpocbigdata",
+            "dev": "https://pocbigdata.dev.azuresynapse.net",
+            "sqlOnDemand": "pocbigdata-ondemand.sql.azuresynapse.net",
+            "sql": "pocbigdata.sql.azuresynapse.net"
+        },
+        "managedResourceGroupName": "synapseworkspace-managedrg-ba000e6f-2f01-4cec-9491-47b48cc50045",
+        "sqlAdministratorLogin": "sqladminuser",
+        "privateEndpointConnections": [],
+        "workspaceUID": "b10153b7-da07-497d-8bcd-25831955b7ee",
+        "extraProperties": {
+            "WorkspaceType": "Normal",
+            "IsScopeEnabled": false
+        },
+        "publicNetworkAccess": "Enabled",
+        "cspWorkspaceAdminProperties": {
+            "initialWorkspaceAdminObjectId": "93528196-036b-4112-b454-b0df3465ab45"
+        },
+        "azureADOnlyAuthentication": false,
+        "trustedServiceBypassEnabled": false
+    },
+    "type": "Microsoft.Synapse/workspaces",
+    "id": "/subscriptions/646d0560-711a-46a7-805e-ecb6f243e289/resourceGroups/POC_BigData/providers/Microsoft.Synapse/workspaces/pocbigdata",
+    "location": "brazilsouth",
+    "name": "pocbigdata",
+    "identity": {
+        "type": "SystemAssigned",
+        "tenantId": "2ded5d7e-fbb1-4835-83cb-40787153c2a0",
+        "principalId": "43460198-8804-4987-9c58-99fac0d60faa"
+    },
+    "tags": {}
+}
